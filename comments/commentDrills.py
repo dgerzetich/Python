@@ -17,20 +17,33 @@ START HERE
 
 #1) Make a single line comment.
 
-
+#Single line comments are cool
 
 #2) Make a multi-line comment.
 
-
+'''
+multi-line
+comments
+are 
+fun
+too
+'''
 
 #3) Make a variable. Then put a comment after it, on the same line.
 
-
+a = "stupendous" #variables are stupendous
 
 #4) Make a single line comment.
 
-
+#this is a single line comment too
 
 #5) Make a multi-line comment.
 
+'''
+another
+multi-line
+comment 
+right 
+here
+'''
 

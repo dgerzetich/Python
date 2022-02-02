@@ -26,7 +26,7 @@ def calculations(list):
     print(sum)
     
     print("The average is:")
-    average = 5 / sum
+    average = sum / 5
     print(average) 
     
     print("The range is:")

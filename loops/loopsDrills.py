@@ -66,7 +66,12 @@ for x in song:
 #   Create a for loop that iterates over the list. In the loop print the movie
 #   being looped over, but create an if statement that breaks out of the 
 #   loop if it is Avatar.
-
+movies = ["Avatar", "The Godfather", "Interstellar", "Batman", "Grease"]
+for x in movies:
+    print(x)
+    
+    if (x == "Avatar"):
+        break
 
 
 

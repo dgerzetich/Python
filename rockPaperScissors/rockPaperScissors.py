@@ -3,7 +3,23 @@ Created on Apr 25, 2022
 
 @author: Daria Gerzetich
 
-Rock, paper, scissors game for user to play against computer. 
+The Objective of this program is to make a Rock, Paper, Scissors game for the user to play against the computer. The tasks to complete are:
+There should be a loop to repeat the game. And the game should go as follows:
+Welcome the user with "Welcome to Rock Paper Scissors! Best two out of three. Press 'q' to quit"
+Create variables to keep track of score
+Begin a loop to repeat rounds until somebody wins. Someone wins when they have won 2 rounds. (Rounds are outlined below).
+Once someone has won, print "Thanks for playing!", print out the final scores, and if the user wins: print "You win!"; if the cpu wins: print "CPU wins!"
+Repeat the whole game once someone wins. And until the user chooses to quit.
+A round should go as follows:
+Have the user choose rock, paper, scissors, or q
+Generate a random choice from the computer
+Check the users input against the computers choice to see who won the round:
+if the user won, add one to the users score, then print out the scores: "User: [#], Computer [#]”
+else if the computer won, add one to the computer’s score, then print out the scores: "User: [#], Computer [#]"
+else if it was a draw, print "DRAW", then print out the scores: "User: [#], Computer [#]"
+else if the user entered "q", then end the round, and the game loop.
+else the user didn't enter an accepted input, and prompt them to try again: "Not an option try again."
+repeat the round until someone wins.
 '''
 import random
 
